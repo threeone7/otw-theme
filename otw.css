@@ -741,10 +741,11 @@ main:has(> article > section.meta) {
 .top-nav__main-menus>li {
   background: var(--bg-2);
   border-radius: 6px;
+  position: relative;
 }
 
 .top-nav__dropdown>ul {
-  top: 105px;
+  top: 30px;
 }
 
 .top-nav__icon-bar .top-nav__dropdown>ul {
@@ -753,7 +754,7 @@ main:has(> article > section.meta) {
 }
 
 .nav-tab-menu__items {
-  top: 143px;
+  top: 30px;
 }
 
 .quick-search {
@@ -775,6 +776,7 @@ body>header {
 .secondary-nav {
   margin-left: 2rem;
   width: calc(100% - 4rem);
+  position: relative;
 }
 
 .panel__heading {
