@@ -760,6 +760,11 @@ main:has(> article > section.meta) {
 .quick-search {
   top: 66px;
   height: 32px;
+  max-width: 280px;
+}
+
+.quick-search__inputs {
+  width: 100%;
 }
 
 body>header {
